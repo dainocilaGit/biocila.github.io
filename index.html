@@ -1,109 +1,92 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.1">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BioCila — Accessible RNA-seq in Portugal</title>
+  <meta name="description" content="BioCila is a Portugal-based biotech startup making RNA sequencing more accessible, affordable, and human-centered." />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    :root {
+      --teal: #2db3a3;
+      --green: #7bc197;
+      --navy: #213547;
+      --purple: #a586c0;
+      --light-bg: #f7f9fa;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--light-bg);
+      color: var(--navy);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 4rem 1.5rem;
+    }
+    header img {
+      max-width: 160px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--purple);
+      margin-bottom: 2rem;
+    }
+    p {
+      max-width: 600px;
+      line-height: 1.6;
+      font-size: 1.1rem;
+      margin: 0 auto 2rem;
+    }
+    .cta {
+      background-color: var(--teal);
+      color: white;
+      text-decoration: none;
+      padding: 0.9rem 1.8rem;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+      font-weight: 500;
+    }
+    .cta:hover {
+      background-color: var(--green);
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;BioCila — Accessible RNA-seq in Portugal&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="BioCila is a Portugal-based biotech startup making RNA sequencing more accessible, affordable, and human-centered." /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link rel="icon" href="favicon.ico" /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;style&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>:root {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>--teal: #2db3a3;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>--green: #7bc197;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>--navy: #213547;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>--purple: #a586c0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>--light-bg: #f7f9fa;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>* {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>body {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background-color: var(--light-bg);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: var(--navy);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>display: flex;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>flex-direction: column;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>align-items: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 4rem 1.5rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>header img {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>max-width: 160px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-bottom: 1rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h1 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 2.5rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: var(--teal);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-bottom: 0.5rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h2 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 1.3rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 400;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: var(--purple);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-bottom: 2rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>p {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>max-width: 600px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>line-height: 1.6;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 1.1rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0 auto 2rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.cta {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background-color: var(--teal);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-decoration: none;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 0.9rem 1.8rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-radius: 50px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>transition: background-color 0.3s ease;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 500;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.cta:hover {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background-color: var(--green);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>footer {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 3rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #555;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;header&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;img src="biocila-logo.png" alt="BioCila logo" /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;BioCila&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Accessible RNA-seq for everyone&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;main&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>At &lt;strong&gt;BioCila&lt;/strong&gt;, we believe RNA sequencing should be within reach of every researcher, lab, and innovator. <span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>Based in Portugal, we combine high-quality genomics with transparent pricing and a human touch.</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a class="cta" href="mailto:info@biocila.com"&gt;Contact Us&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>© 2025 BioCila — Porto, Portugal</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+  <header>
+    <img src="biocila-logo.png" alt="BioCila logo" />
+    <h1>BioCila</h1>
+    <h2>Accessible RNA-seq for everyone</h2>
+  </header>
+
+  <main>
+    <p>
+      At <strong>BioCila</strong>, we believe RNA sequencing should be within reach of every researcher, lab, and innovator.  
+      Based in Portugal, we combine high-quality genomics with transparent pricing and a human touch.
+    </p>
+
+    <a class="cta" href="mailto:info@biocila.com">Contact Us</a>
+  </main>
+
+  <footer>
+    © 2025 BioCila — Porto, Portugal
+  </footer>
 </body>
 </html>
